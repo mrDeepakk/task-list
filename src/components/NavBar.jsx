@@ -103,7 +103,12 @@ function NavBar() {
                 </svg>
               </button>
 
-              <div className="relative ml-3">
+              <div
+                className="relative ml-3"
+                onClick={() => {
+                  window.open("https://github.com/mrDeepakk", "_blank");
+                }}
+              >
                 <div>
                   <button
                     type="button"
